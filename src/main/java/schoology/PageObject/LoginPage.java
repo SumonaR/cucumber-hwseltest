@@ -12,7 +12,7 @@ public class LoginPage {
 	WebDriver driver;
 	WebDriverWait wait;
 	
-	
+	// This is a constructor to pass in driver to create page object of this class
 	 public LoginPage (WebDriver driver){
 		 this.driver= driver;
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
